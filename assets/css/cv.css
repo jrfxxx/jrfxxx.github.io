@@ -1,0 +1,38 @@
+.btn-spotify{
+    color:#fff;
+    background-color:#1db954;
+    border-color:#1db954;
+    opacity:.8
+}
+.btn-spotify.active,.btn-spotify:active,.btn-spotify:focus,.btn-spotify:hover,.open>.btn-spotify.dropdown-toggle{
+    background-color:#1db954!important;
+    border-color:#1db954!important;
+    color:#fff;
+    opacity:1
+}
+.btn-spotify.btn-border{
+    border-color:#1db954;
+    color:#1db954
+}
+.btn-spotify.btn-border.active,.btn-spotify.btn-border:active,.btn-spotify.btn-border:focus,.btn-spotify.btn-border:hover,.open>.btn-spotify.btn-border.dropdown-toggle{
+    background-color:#1db954;
+    border-color:#1db954;
+    color:hsla(0,0%,100%,.7)
+}
+.btn-spotify.btn-border.disabled,.btn-spotify.btn-border:disabled,.btn-spotify.btn-border[disabled]{
+    background-color:transparent;
+    border-color:#1db954
+}
+.btn-spotify.btn-link{
+    color:#1db954;
+    opacity:.8
+}.btn-spotify.btn-link.active,.btn-spotify.btn-link:active,.btn-spotify.btn-link:focus,.btn-spotify.btn-link:hover,.open>.btn-spotify.btn-link.dropdown-toggle{
+    background-color:transparent!important;
+    color:#1db954;
+    opacity:1;
+    border-color:transparent!important
+}
+.btn-spotify.btn-link.active i,.btn-spotify.btn-link:active i,.btn-spotify.btn-link:focus i,.btn-spotify.btn-link:hover i,.open>.btn-spotify.btn-link.dropdown-toggle i{
+    color:#1db954;
+    opacity:1
+}
