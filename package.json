@@ -1,0 +1,30 @@
+{
+  "name": "etk-website",
+  "description": "ETK Website - June 2020",
+  "version": "1.0.1",
+  "homepage": "",
+  "author": "Jason Feibelman (jrfeibelman)",
+  "license": "SEE LICENSE IN license.txt",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^5.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-install": "^1.1.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-open": "^3.0.1"
+  },
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.468.0",
+    "express": "^4.17.0",
+    "node-static": "^0.7.11"
+  }
+}
